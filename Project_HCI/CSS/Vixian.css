@@ -1,0 +1,188 @@
+*
+{
+    margin: auto;
+    padding: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body
+{
+    background-color:white;
+}
+
+
+header{
+    background-color: #fbf4e1;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.atas
+{
+    display: flex;
+}
+
+.imglogo img
+{
+  width: 150px;
+  margin-left: -188px;
+}
+
+.slogan
+{
+    padding-left: 100px;
+    text-align: center;
+    color: black;
+    font-family:sans-serif;
+}
+
+.Search
+{
+    display: flex;
+    justify-content: right;
+    border-style: groove;
+}
+
+nav{
+    background-color:black;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 400px;
+    padding-top: 12px;
+}
+
+nav li{
+    color: white;
+    list-style-type: none;
+    font-family: sans-serif;
+    padding-bottom: 12px;
+}
+
+.list
+{
+    color: white;
+}
+
+.list:hover
+{
+    color: wheat;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+ }
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: wheat;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+} 
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main{
+    max-width: auto;
+    margin: auto;
+    background-color: white;
+}
+
+main section h2{
+    text-align: center;
+    margin: 32px auto;
+    font-family:serif;
+    font-size:xx-large;
+}
+
+.motors-grid{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    font-family: serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.motor img{
+   width: auto;
+   height: 200px;
+}
+
+.cycles-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: serif;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+.cycle img{
+    width: 70%;
+    height: 200px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.copyright
+{
+    margin: 15px;
+    padding-top: 15px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+.sosmed
+{
+    background-color: wheat;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+
+}
+
+.sosmed img 
+{
+    height: 40px;
+    display: flex;
+}
